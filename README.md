@@ -1,7 +1,7 @@
 # HearingAid
 Drop a notes field in any form and send the responses to a Google Sheet and/or email.
 
-Having conversations with visitors is everything to unlocking scale and quality as they move through your forms. The hard part is, while we know there is a human on the other side of the screen, we operate "funnels" that are really only a one way experience for your users. The key is to turn your "funnels" into "conversations" by making it a two way experience.
+Having conversations with visitors is everything to unlocking scale and quality as they move through your forms. The hard part is, while we know there is a human on the other side of the screen, we operate "funnels" that are really only a one way experience for our users. The key is to turn your "funnels" into "conversations" by making it a two way experience.
 
 A powerful way we have converted our funnels into conversations is by strategically placing free form notes fields into forms a percentage of the time. You always need to be careful with adding fields like this to a form process. However, we have seen cases where simply having the field actually increases frontend conversion! 
 

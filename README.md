@@ -16,9 +16,9 @@ We put this tool together so that anyone can:
 Place the following snippet of code on any page/any form wherever you would like to capture user questions/comments/notes/etc.
 
 ```javascript
-<script type="text/javascript" src="https://www.envoymediagroup.com/track/nimble/messenger.js"></script>
+<script type="text/javascript" src="https://www.envoymediagroup.com/track/hearing/aid.js"></script>
 <script type="text/javascript">
-    Nimble_Messenger_Config = {
+    Hearing_Aid_Config = {
         textarea: {
             style: 'width: 300px; height: 100px',
             class: null,
@@ -30,7 +30,7 @@ Place the following snippet of code on any page/any form wherever you would like
         },
         //comma separated emails (optional)
         mail_message_to: '',
-        //google sheet url with edit access to nimble@envoymediagroup.com (optional)
+        //google sheet url with edit access to hearingaid@envoymediagroup.com (optional)
         google_sheet_url: '',
         //order of google sheet columns (if google sheet is used)
         google_sheet_columns: [
@@ -60,19 +60,19 @@ Place the following snippet of code on any page/any form wherever you would like
         },
         id: null
     };
-    nimble_messenger_percent_show = 100;
+    hearing_aid_percent_show = 100;
 
-    nimbleMessengerShow();
+    heraringAidShow();
 </script>
 ```
 There are a lot of configuration options here and many have examples but you need to make sure you set either set a mail_message_to email or a google_sheet_url. If you decide to use a Google Sheet. You need to:
 
 1. Make a Google Sheet
-2. Give nimble@envoymediagroup.com Edit access
+2. Give hearingaid@envoymediagroup.com Edit access
 3. Paste the sheet url in the google_sheet_url variable
 4. (Optional) Adjust the columns you would like in the report. The google_sheet_columns array above has all of the default columns we will append to the report. You can remove them, reorder them or even add your own by adding key/value data to the "extra" object and adding the extra column key to the google_sheet_columns array.
 5. (Optional) Change the id from null to something that uniquely identifies your user. If you leave it as null, the script will automatically create a unique id for you.
-6. (Optional) Change the nimble_messenger_percent_show variable from 1 to 100. This controls the percentage of the time that the field will even show. It defaults to 100 percent.
+6. (Optional) Change the hearing_aid_percent_show variable from 1 to 100. This controls the percentage of the time that the field will even show. It defaults to 100 percent.
     
 Feel free to use this tool whenever you need to grab information from users quickly and don't want to go through all the trouble of setting up databases/reports/etc. The information that comes from your actual visitors and customers is priceless and something that a focus group simply can't match. If you feel like you've hit a wall with optimization, maybe you just need to gather some user input to help guide what your next optimizations should be.
 

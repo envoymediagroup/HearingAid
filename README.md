@@ -11,6 +11,8 @@ We put this tool together so that anyone can:
 2. Configure the display to only be a percentage of the time.
 3. Put the responses into a Google Sheet and/or get emailed to you.
 
+![hearing aid screenshot](https://drive.google.com/file/d/0B6HxVI4RZdcNSy1iVHdjeTVvQ0U/view?usp=sharing)
+
 # Here's How It Works
 
 Place the following snippet of code on any page/any form wherever you would like to capture user questions/comments/notes/etc.

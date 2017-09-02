@@ -64,7 +64,7 @@ Place the following snippet of code on any page/any form wherever you would like
     };
     hearing_aid_percent_show = 100;
 
-    heraringAidShow();
+    hearingAidShow();
 </script>
 ```
 There are a lot of configuration options here and many have examples but you need to make sure you set either set a mail_message_to email or a google_sheet_url. If you decide to use a Google Sheet. You need to:
